@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    
+    
+
+    <link rel="stylesheet" href="css/subcategory.css">
+    <link rel="stylesheet" href="css/mainmenu.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/minibasket.css">
+    <script type="text/javascript" src="backend.json"></script>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/basket.js"></script>
+    <script type="text/javascript" src="js/minibasket.js"></script>
+
+    <title>DNS Shop</title>
+</head>
+<body onload="onLoad(); createMiniBasketElements()">
+<div class="header">
+    <ul class="mainmenu">
+        <a href="index.html">
+            <li class="logo"></li>
+            <li>DNS</li></a>
+        <a href="basket.html" class="text">
+            <li class="last" onmouseover="showMiniBasket()">Корзина</li></a>
+    </ul>
+</div>
+
+<div class="content">
+<div class="All">
+    <div align="center"><h1>Процессоры</h1></div>
+
+    <div id="elements" class="subcategory">
+</div>
+    <div class="minibasket" onmouseout="hiddenBasket()" onmouseover="otmenaHidden()">
+        <div class="minibasket_top">
+            <span class="minibasket_much">Товары(<span id="minibasketmuch">0</span>)</span>
+            <button class="clear" onclick="miniBasketDeleteAll()">Очистить всё</button>
+        </div>
+
+        <br>
+        <div class="minibasket_elements">
+
+        </div>
+
+        <div class="minibasket_result">
+            <div class="minibasket_block_price">
+                <span>Итого:</span>
+                <span class="minibasket_result_price">0 ₽</span>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+</div>
+</body>
+</html>

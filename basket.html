@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/subcategory.css">
+    <link rel="stylesheet" href="css/mainmenu.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script type="text/javascript" src="backend.json"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/basket.js"></script>
+    <title>Корзина</title>
+</head>
+<body onload="BasketLoad()">
+<div class="header">
+    <ul class="mainmenu">
+        <a href="index.html">
+            <li class="logo"></li>
+            <li>DNS</li></a>
+        <a href="basket.html" class="text">
+            <li class="last">Корзина</li></a>
+    </ul>
+</div>
+
+<div align="center"><h1>Корзина</h1></div>
+
+
+<div class="cart-tab-content">
+    <div class="cart-tab-products-list">
+        <div class="cart-items">
+            <div class="cart-items__products">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cart-tab-total-amount">
+        <div class="total-amount" id="total-amount">
+            <div class="total-amount__content">
+                <div class="total-amount__title total-amount__title_bottom-border">
+                    <span>Условие заказа</span>
+                </div>
+
+                <div>
+
+                    <div class="summary-header">
+                        <div class="summary-header__text">
+                            <span class="summary-header__total">Итого</span>
+                            <div class="summary-header__total-items" id="total"></div>
+                        </div>
+                        <div class="price summary__price">
+                            <div class="price__block price__block_main">
+                                <span class="price__current" id="price">5673</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="basket_button">Перейти к оформлению</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>

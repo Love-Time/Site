@@ -1,0 +1,5 @@
+a.text:hover, /* активная/посещенная ссылка */
+a.text {
+    text-decoration: none;
+    color: #fdc073;
+}
