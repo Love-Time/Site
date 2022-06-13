@@ -1,11 +1,9 @@
 var timeoutHolder = {}
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+
 
 function createMiniBasketElement(index) {
-    console.log(document.pageX)
+
     let oneData = data[index]
 
     let element = document.createElement("div")
@@ -76,6 +74,14 @@ function miniBasketDeleteAll() {
             miniBasketDelete("minibasket" + key, key)
         }
     }
+    let parent = document.getElementsByClassName("minibasket_elements")[0]
+    while (parent.firstChild)
+    {
+        parent.removeChild(parent.firstChild)
+    }
+
+    document.getElementsByClassName("minibasket_result_price")[0].innerHTML = 0 + " ₽"
+    document.getElementById("minibasketmuch").innerHTML = 0
 }
 
 function AddToMiniBasket(index, show=true) {
@@ -91,6 +97,7 @@ function AddToMiniBasket(index, show=true) {
     much.innerText = Number(much.innerText) + 1
     if(show) {
         showMiniBasket()
+        hiddenBasket()
     }
 
 }
