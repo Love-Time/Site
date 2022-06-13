@@ -1,41 +1,87 @@
-data =	[ {"name": "Процессор AMD FX-4320 OEM [AM3+, 4 x 4 ГГц, L2 - 4 МБ, L3 - 4 МБ, 2хDDR3-1866 МГц, TDP 125 Вт]", "price": 2800, "img": "images/AMD FX-4320 OEM.jpg"},
-		{"name": "Процессор Intel Core i5-9400F OEM [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, TDP 65 Вт]", "price": 12800, "img": "images/Intel Core i5-9400F OEM.jpg"},
-		{"name": "Процессор Intel Core i5-9400F BOX [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, TDP 65 Вт, кулер]", "price": 13000, "img": "images/Процессор Intel Core i5-9400F BOX.jpg"},
-		{"name": "Процессор Intel Core i5-10400F OEM [LGA 1200, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 12 МБ, 2хDDR4-2666 МГц, TDP 65 Вт]", "price": 14500, "img": "images/Процессор Intel Core i5-10400F OEM.jpg"},
-		{"name": "Процессор Intel Core i5-10400F BOX [LGA 1200, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 12 МБ, 2хDDR4-2666 МГц, TDP 65 Вт, кулер]", "price": 16300, "img": "images/Процессор Intel Core i5-10400F BOX.jpg"},
-		{"name": "Процессор Intel Core i5-9400 OEM [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, Intel UHD Graphics 630, TDP 65 Вт]", "price": 15300, "img": "images/Процессор Intel Core i5-9400 OEM.jpg"},
-		{"name": "Процессор Intel Core i5-11400F OEM [LGA 1200, 6 x 2.6 ГГц, L2 - 3 МБ, L3 - 12 МБ, 2хDDR4-3200 МГц, TDP 65 Вт]", "price": 15800, "img": "images/Процессор Intel Core i5-11400F OEM.jpg"},
-{'name': 'T-shirts', "img":"img_product/1.png","price":"2299"},
-        {'name': 'Shirts', "img":"img_product/2.png","price":"2699"},
-        {'name': 'Jeans', "img":"img_product/3.png","price":"2299"},
-        {'name': 'Shorts', "img":"img_product/4.png","price":"2299"},
-        {'name': 'Costumes', "img":"img_product/5.png","price":"2299"},
-
-    {
-        "name":"shorts",
-        "price":"1100",
-        "img":"img/img_2.svg"
-    },
-    {
-        "name":"pant",
-        "price":"1200",
-        "img":"img/img_3.svg"
-    },
-    {
-        "name":"cap",
-        "price":"800",
-        "img":"img/img_4.svg"
-    },
-    {
-        "name":"shirt",
-        "price":"1400",
-        "img":"img/img_5.svg"
-    },
-    {
-        "name":"socks",
-        "price":"500",
-        "img":"img/img_6.svg"
-    }
-
-
+data =    [
+  {
+    "name": "Процессор AMD FX-4320 OEM [AM3+, 4 x 4 ГГц, L2 - 4 МБ, L3 - 4 МБ, 2хDDR3-1866 МГц, TDP 125 Вт]",
+    "price": 2800,
+    "img": "images/AMD FX-4320 OEM.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-9400F OEM [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, TDP 65 Вт]",
+    "price": 12800,
+    "img": "images/Intel Core i5-9400F OEM.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-9400F BOX [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, TDP 65 Вт, кулер]",
+    "price": 13000,
+    "img": "images/Процессор Intel Core i5-9400F BOX.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-10400F OEM [LGA 1200, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 12 МБ, 2хDDR4-2666 МГц, TDP 65 Вт]",
+    "price": 14500,
+    "img": "images/Процессор Intel Core i5-10400F OEM.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-10400F BOX [LGA 1200, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 12 МБ, 2хDDR4-2666 МГц, TDP 65 Вт, кулер]",
+    "price": 16300,
+    "img": "images/Процессор Intel Core i5-10400F BOX.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-9400 OEM [LGA 1151-v2, 6 x 2.9 ГГц, L2 - 1.5 МБ, L3 - 9 МБ, 2хDDR4-2666 МГц, Intel UHD Graphics 630, TDP 65 Вт]",
+    "price": 15300,
+    "img": "images/Процессор Intel Core i5-9400 OEM.jpg"
+  },
+  {
+    "name": "Процессор Intel Core i5-11400F OEM [LGA 1200, 6 x 2.6 ГГц, L2 - 3 МБ, L3 - 12 МБ, 2хDDR4-3200 МГц, TDP 65 Вт]",
+    "price": 15800,
+    "img": "images/Процессор Intel Core i5-11400F OEM.jpg"
+  },
+  {
+    'name': 'T-shirts',
+    "img": "img_product/1.png",
+    "price": "2299"
+  },
+  {
+    'name': 'Shirts',
+    "img": "img_product/2.png",
+    "price": "2699"
+  },
+  {
+    'name': 'Jeans',
+    "img": "img_product/3.png",
+    "price": "2299"
+  },
+  {
+    'name': 'Shorts',
+    "img": "img_product/4.png",
+    "price": "2299"
+  },
+  {
+    'name': 'Costumes',
+    "img": "img_product/5.png",
+    "price": "2299"
+  },
+  {
+    "name": "shorts",
+    "price": "1100",
+    "img": "img/img_2.svg"
+  },
+  {
+    "name": "pant",
+    "price": "1200",
+    "img": "img/img_3.svg"
+  },
+  {
+    "name": "cap",
+    "price": "800",
+    "img": "img/img_4.svg"
+  },
+  {
+    "name": "shirt",
+    "price": "1400",
+    "img": "img/img_5.svg"
+  },
+  {
+    "name": "socks",
+    "price": "500",
+    "img": "img/img_6.svg"
+  }
 ]
