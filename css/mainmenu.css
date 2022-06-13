@@ -13,6 +13,7 @@ body {
 	font-size: 16px;
 	line-height: 1.42857;
 	margin: 0;
+	overflow: hidden;
 }
 a {
 	color: #0059b2;
